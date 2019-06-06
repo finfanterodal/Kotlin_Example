@@ -8,6 +8,7 @@ class Entrenador (private var idFederacion: String, id: Int, edad: Int, nombre: 
 
     }
 
+    //Funciones de esta clase
     fun dirigirPartido() {
         println("Dirigir partido")
     }
@@ -16,6 +17,7 @@ class Entrenador (private var idFederacion: String, id: Int, edad: Int, nombre: 
     println("Dirigir entrenamiento")
     }
 
+    //Utilizamos la palabra reservada override para sobreescribir métodos
     override fun viajar() {
         super.viajar() //To change body of generated methods, choose Tools | Templates.
         println("Viaxa o entrenador.")

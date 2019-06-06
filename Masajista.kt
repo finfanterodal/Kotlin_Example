@@ -1,4 +1,4 @@
-
+//Constructor Simplificado en kotlin
 class Masajista (
     private var titulacion: String,
     private var aniosExperiencia: Int,
@@ -13,6 +13,7 @@ class Masajista (
     println("Dar Masaje.")
     }
 
+    //Método sobreescrito
     override fun viajar() {
         super.viajar() //To change body of generated methods, choose Tools | Templates.
         println("Viaxa o masajista.")
